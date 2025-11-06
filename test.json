@@ -1,0 +1,20 @@
+v = {
+ "cod" : "200",
+ "message" : 0,
+ "cnt" : 40,
+ "list" : [ {
+  "dt" : 1702393200,
+  "main" : {
+   "temp" : 11.62,
+   "feels_like" : 9.54,
+   "temp_min" : 9.43,
+   "temp_max" : 11.62,
+   "pressure" : 1015,
+   "sea_level" : 1015,
+   "grnd_level" : 827,
+   "humidity" : 27,
+   "temp_kf" : 2.19
+
+  }
+  
+  print(v["List"]["main"])
